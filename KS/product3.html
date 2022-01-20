@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>설비</title>
+  <meta charset="utf-8">
+
+  <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">KS 중장비</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="ceo.html"> CEO <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="location.html">오시는 길</a>
+      </li>
+    </ul>
+    
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="cart.html"> Cart <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="login.html">Login</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="btn-group">
+  <a href="product1.html"><button class="button">설비</button></a>
+  <a href="product2.html"><button class="button">기본작업장치류</button></a>
+  <a href="product3.html"><button class="button">로테이텀/클램프류</button></a>
+  <a href="product4.html"><button class="button">복합장치류</button></a>
+</div> 
+
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+      <a href="#" class="course">
+        <img src="images/bale.jpeg" width="100%" class="course-img">
+        
+        <div class="info">
+          <h4>Bale Clamp</h4>
+          <div class="lecturer">
+            <img src="images/boxes.svg" width="20" height="20"><span class="name">(재고:N)</span>
+          </div>
+        </div>
+      </a>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+      <a href="#" class="course">
+        <img src="images/carton.jpeg" width="100%" class="course-img">
+        
+        <div class="info">
+          <h4>Carton Clamp</h4>
+          <div class="lecturer">
+            <img src="images/boxes.svg" width="20" height="20"><span class="name">(재고:N)</span>
+          </div>
+        </div>
+      </a>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+      <a href="#" class="course">
+        <img src="images/clamp.jpeg" width="100%" class="course-img">
+        
+        <div class="info">
+          <h4>Fork Clamp</h4>
+          <div class="lecturer">
+            <img src="images/boxes.svg" width="20" height="20"><span class="name">(재고:N)</span>
+          </div>
+        </div>
+      </a>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+      <a href="#" class="course">
+        <img src="images/rotating2.jpeg" width="100%" class="course-img">
+        
+        <div class="info">
+          <h4>Rotating Fork</h4>
+          <div class="lecturer">
+            <img src="images/boxes.svg" width="20" height="20"><span class="name">(재고:N)</span>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+      <a href="#" class="course">
+        <img src="images/drum2.jpeg" width="100%" class="course-img">
+        
+        <div class="info">
+          <h4>Drum Clamp</h4>
+          <div class="lecturer">
+            <img src="images/boxes.svg" width="20" height="20"><span class="name">(재고:N)</span>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+      <a href="#" class="course">
+        <img src="images/patar.jpeg" width="100%" class="course-img">
+        
+        <div class="info">
+          <h4>Pater Roll Cla</h4>
+          <div class="lecturer">
+            <img src="images/boxes.svg" width="20" height="20"><span class="name">(재고:N)</span>
+          </div>
+        </div>
+      </a>
+    </div>
+    
+<script>
+    (function() {
+      var w = window;
+      if (w.ChannelIO) {
+        return (window.console.error || window.console.log || function(){})('ChannelIO script included twice.');
+      }
+      var ch = function() {
+        ch.c(arguments);
+      };
+      ch.q = [];
+      ch.c = function(args) {
+        ch.q.push(args);
+      };
+      w.ChannelIO = ch;
+      function l() {
+        if (w.ChannelIOInitialized) {
+          return;
+        }
+        w.ChannelIOInitialized = true;
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'https://cdn.channel.io/plugin/ch-plugin-web.js';
+        s.charset = 'UTF-8';
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+      }
+      if (document.readyState === 'complete') {
+        l();
+      } else if (window.attachEvent) {
+        window.attachEvent('onload', l);
+      } else {
+        window.addEventListener('DOMContentLoaded', l, false);
+        window.addEventListener('load', l, false);
+      }
+    })();
+    ChannelIO('boot', {
+      "pluginKey": "6e172aad-e1c5-4f5b-a9b8-e2ef859c435e"
+    });
+  </script>
+  <footer id="footer2">
+    상호 : (주)KS중장비<br>
+    주소 : 경상남도 경상남도 김해시 생림면 나전로 396-68 or 71<br>
+    대표 : 김 태 형<br>
+    주요업무 : 중장비 어태치, 포크<br><br>
+    Tel. 055-723-2354<br>
+    Mobile. 010-5526-7228<br>
+    FAX. 055-723-2374
+</footer>
+</body>
+</html>

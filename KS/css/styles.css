@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Jua', sans-serif;
+}
+
+.carousel-item {
+  height: 400px;
+  background-size: cover;
+  text-align: center;
+}
+
+.carousel-item.item1 {
+  background-image: url('../images/guitar.jpg');
+  background-position: left center;
+}
+
+.carousel-item.item2 {
+  background-image: url('../images/makeup.jpg');
+  background-position: center top;
+}
+
+.carousel-item.item3 {
+  background-image: url('../images/cooking.jpg');
+  background-position: center center;
+}
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.intro {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.intro h2 {
+  font-size: 32px;
+  color: white;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+.intro h3 {
+  font-size: 22px;
+  color: white;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 48px;
+}
+
+.intro a {
+  background-color: black;
+  border-radius: 2px;
+  padding: 10px 30px;
+  color: white;
+  font-weight: 300;
+}
+
+.carousel-item a {
+  text-decoration: none;
+}
+
+.carousel-item a:hover {
+  background-color: orange;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.course {
+  display: block;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.course:hover {
+  text-decoration: none;
+}
+
+.course .course-img {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+.course .info {
+  padding: 10px;
+}
+
+.course .info h4 {
+  font-size: 20px;
+  color: #4a4a4a;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.course .info .lecturer {
+  font-size: 15px;
+  color: #4a4a4a;
+}
+
+.course .info .lecturer img, 
+.course .info .lecturer .name {
+  vertical-align: middle;
+}
+
+.course .info .lecturer img {
+  margin-right: 7px;
+}
+
+  @media (min-width: 768px) {
+    .ks1 img {
+      width: 100%;
+      height: auto;
+    }
+
+    .logo img {
+      width: 100%;
+      height: auto;
+    }
+
+    .his img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 33px;
+    font-weight: bold;
+  }
+
+  footer{
+    border-top:1px solid gray;
+    padding:20px;
+    text-align: justify;
+    background-color: white;
+    color: black;
+    position: relative;
+    width: 100%;
+}
+
+#footer2 {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  float: left;
+  font-size: small;
+}
+
+.btn-group .button { 
+  background-color: black; 
+  border: 1px solid white;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
+} 
+
+.btn-group a {
+  text-decoration: none;
+}
+
+.btn-group .button:hover { 
+  background-color: orange;
+}
+
+/* 로그인 */
+
+.login-form {
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.text-field {
+  margin-bottom: 10px;
+  font-size: 14px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+}
+
+.submit-btn {
+  font-size: 14px;
+  background-color: black;
+  color: orange;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
+}
+
+.links {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.links a {
+  font-size: 12px;
+  color: #9B9B9B;
+}
